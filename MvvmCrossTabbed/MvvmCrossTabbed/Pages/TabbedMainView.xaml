@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxTabbedPage
+    x:TypeArguments="viewModels:TabbedMainViewModel"
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:viewModels="clr-namespace:MvvmCrossTabbed.ViewModels"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:MvvmCrossTabbed.Pages"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    BarBackgroundColor="CadetBlue"
+    BarTextColor="Yellow"
+    x:Class="MvvmCrossTabbed.Pages.TabbedMainView">
+
+    <!--Pages can be added as references or inline-->
+    <!--<pages:Tab1View Title="Tab 1" Icon="Icon.png"/>
+    <pages:Tab2View Title="Tab 2" Icon="Icon.png"/>-->
+</views:MvxTabbedPage>
